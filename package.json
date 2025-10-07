@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/rao-waleed451/text-to-speech-converter-js/issues"
   },
-  "homepage": "https://github.com/rao-waleed451/text-to-speech-converter-js#readme"
+  "homepage": "https://github.com/rao-waleed451/text-to-speech-converter-js#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
 }
