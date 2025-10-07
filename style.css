@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@layer components{
+    .btn{
+       @apply relative transition-all duration-600 ease-in border-b-3 border-white 
+    }
+
+    .btn::after{
+        content: "";
+        width: 0px;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        background-color: red;
+        transition: all 1s ease;
+
+    }
+
+    .btn:hover::after{
+        content: "";
+         width: 100px;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        background-color: red;
+    }
+}
